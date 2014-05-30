@@ -1,0 +1,15 @@
+2014-05-29 13:31:08,351 CRIT Supervisor running as root (no user in config file)
+2014-05-29 13:31:08,376 INFO supervisord started with pid 9
+2014-05-29 13:31:08,378 INFO spawned: 'redis' with pid 10
+2014-05-29 13:31:08,382 INFO spawned: 'logstash' with pid 11
+2014-05-29 13:31:09,398 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-05-29 13:31:09,398 INFO success: logstash entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-05-29 13:31:13,947 INFO exited: logstash (exit status 1; not expected)
+2014-05-29 13:31:13,947 INFO received SIGCLD indicating a child quit
+2014-05-29 13:31:14,951 INFO spawned: 'logstash' with pid 42
+2014-05-29 13:31:15,326 CRIT received SIGINT indicating exit request
+2014-05-29 13:31:15,327 INFO waiting for redis, logstash to die
+2014-05-29 13:31:15,336 INFO stopped: logstash (exit status 143)
+2014-05-29 13:31:15,336 INFO received SIGCLD indicating a child quit
+2014-05-29 13:31:15,419 INFO stopped: redis (exit status 0)
+2014-05-29 13:31:15,419 INFO received SIGCLD indicating a child quit
